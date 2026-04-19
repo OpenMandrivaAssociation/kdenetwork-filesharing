@@ -5,7 +5,7 @@
 
 Summary:	Samba filesharing dialog for KDE6
 Name:		kdenetwork-filesharing
-Version:	25.12.3
+Version:	26.04.0
 Release:	%{?git:0.%{git}.}1
 License:	GPLv2+
 Group:		Graphical desktop/KDE
@@ -47,7 +47,7 @@ Samba filesharing dialog for KDE6.
 %{_libdir}/qt6/plugins/kf6/propertiesdialog/sambausershareplugin.so
 %{_libdir}/qt6/plugins/kf6/propertiesdialog/SambaAcl.so
 %{_datadir}/metainfo/org.kde.kdenetwork-filesharing.metainfo.xml
-%{_libdir}/libexec/kf6/kauth/authhelper
 %{_datadir}/dbus-1/system-services/org.kde.filesharing.samba.service
 %{_datadir}/dbus-1/system.d/org.kde.filesharing.samba.conf
 %{_datadir}/polkit-1/actions/org.kde.filesharing.samba.policy
+%{_libdir}/libexec/kf6/kauth/sambausershareplugin_authhelper
